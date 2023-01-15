@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header common styles */
+
+header {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+/* main common styles */
+
+main {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* section common styles */
+
+section {
+    margin-top: 150px;
+}
+
+/* nav bar styles */
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 228px;
+    padding-right: 240px;
+}
+
+.nav_logo {
+    padding-top: 50px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 25px;
+    padding-top: 63px;
+}
+
+/* header___banner styles */
+
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner_title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #131313;
+    margin-top: 116px;
+    margin-bottom: 23px;
+}
+
+.banner_description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    width: 868px;
+    margin-bottom: 32px;
+}
+
+.btn_primary {
+    width: 180px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+}
+
+.banner>img {
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-bottom: 45px;
+}
+
+/* features section style */
+
+.features {
+    display: flex;
+    align-items: center;
+}
+
+.features_img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    margin-right: 73px;
+}
+
+.features_description>h3 {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    color: #727272;
+    margin-bottom: 24px;
+}
+
+.span_1 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.span_2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
+
+.ft_details {
+    ont-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 32px;
+}
