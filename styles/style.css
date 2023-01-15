@@ -258,6 +258,9 @@ nav ul {
     align-items: center;
     height: 242px;
     width: 242px;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
 }
 
 .fact_items>img {
@@ -317,6 +320,65 @@ nav ul {
     display: flex;
     gap: 80px;
     align-items: center;
+}
+
+/* contact us section style */
+
+.contact {
+    display: flex;
+    gap: 117px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    border-radius: 5px;
+}
+
+.contact-title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #131313;
+    margin-bottom: 30px;
+}
+
+.contact .section-title {
+    text-align: left;
+}
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+input {
+    height: 64px;
+}
+
+.contact-description {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+}
+
+.contact a {
+    text-decoration: none;
+    margin-right: 26px;
+}
+
+.btn-submit {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FF900E;
 }
 
 /* footer styles */
