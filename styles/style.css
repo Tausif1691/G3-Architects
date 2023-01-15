@@ -59,6 +59,10 @@ nav ul {
     align-items: center;
 }
 
+.banner>img{
+    max-width: 80%;
+}
+
 .banner_title {
     font-weight: 700;
     font-size: 64px;
