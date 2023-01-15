@@ -195,7 +195,6 @@ nav ul {
 
 .experience_img {
     width: 50%;
-    position: relative;
 }
 
 .experience_img>img {
@@ -206,9 +205,9 @@ nav ul {
 .experience_img>.btn_experience {
     width: 342px;
     height: 200px;
-    position: absolute;
-    bottom: 100px;
-    left: 0;
+    position: relative;
+    bottom: 160px;
+    left: -30px;
     background: #FF900E;
     border-radius: 8px;
     border: none;
